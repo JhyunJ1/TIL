@@ -45,5 +45,43 @@ memo = eval(input("Say anyting > "))
 print(memo, type(memo))
 ```
 
+#### Git
+기본bash layout
+- $ : 사용자의 입력 받을 준비
+- ~ : 사용자가 root 권한 없이 사용할 수 있는 가장 최상위 위치 (=user 폴더)
+- git push origin main
+- /*Trailing comma*/
+```python
+menus = [
+	'tteokbokki',
+	'pizza',
+	'Cream Soup',
+]
+```
+
+### List Tuple Dictionary Set
+#### List, Tuple
+- List : 순서 존재
+- Tuple : 무순서 ,묶음
+```
+Tuple
+: 함수에서 여러 개의 값을 반환할 때 주로 사용
+: 값들을 교환해야 할 때 주로 사용
+```
+
+#### Hash Table
+> 일정한 탐색 속도
+- .format을 이용하여 dict 편하게 출력하기
+```python
+contact = {
+    'name': 'John Doe',
+    'Locale': 'CA, USA',
+}
+print("Hello, {name}. You are from{Locale}".format(**contact))
+```
+
+#### Set
+> 원소는 유일해야 한다는 집합의 속성으로 중복 제거 할 때 유용
+
 
 
