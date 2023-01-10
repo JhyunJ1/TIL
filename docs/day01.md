@@ -1,4 +1,5 @@
-# Python Basic Day01
+# Python Basic Week 01
+
 ## 이규화 멘토님
 ### 신한투자증권 ict 영역
 - web : 주로 java vue.js node.js
