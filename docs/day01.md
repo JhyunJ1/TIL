@@ -86,13 +86,13 @@ print("Hello, {name}. You are from{Locale}".format(**contact))
 
 
 #### Pseudo Code
-# Computational Thinking
+omputational Thinking
 컴퓨팅적 사고 방식을 위한 연습
 
-## 문제 정의
+문제 정의
 잠에 들기 전 /*더 글로리 시즌 2*/가 나왔다. 어디서, 어떻게 드라마를 볼까?
 
-## 문제 추상화
+문제 추상화
 - 드라마가 보고 싶은가?
      Yes -> 드라마를 시청한다.
      No -> 잠에 든다.
@@ -109,8 +109,27 @@ print("Hello, {name}. You are from{Locale}".format(**contact))
     Yes -> 방에서 조용히 혼자 드라마를 시청한다.
     No -> 부엌에서 야식을 먹으며 드라마를 시청한다.
 
-## 솔루션
+솔루션
 ![ct](https://user-images.githubusercontent.com/93964101/211465308-1a2a37d1-3661-4a04-b7ea-1d0378445339.png)
+
+
+#### VAT
+- Korea: 10%
+- Japan: 8%
+- USA : 주마다 다름
+- UK : 20%
+제품 가격과 나라에 따라 다른 부가가치세를 계산해 그 가격을 보여주도록!
+
+/*Pseudo Code*/
+```
+1. vat 변수를 생성하여 사용자에게 입력받는다.
+2. korea는 제품 가격 : vat * 1.1 부가가치세 : vat * 0.1를 출력한다.
+3. Japan는 제품 가격 : vat * 1.08 부가가치세 : vat * 0.08를 출력한다.
+4. USA는 제품 가격 : 지역에 따라 다름 부가가치세 : 지역에 따라 다름을 출력한다.
+5. UK는 제품 가격 : vat * 1.2 부가가치세 : vat * 0.2를 출력한다.
+```
+
+
 
 
 
